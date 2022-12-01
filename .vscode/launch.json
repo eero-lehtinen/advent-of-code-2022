@@ -1,0 +1,18 @@
+{
+	"configurations": [
+		{
+			"type": "lldb",
+			"request": "launch",
+			"name": "Debug Rust file",
+			"program": "${fileDirname}/../target/debug/${fileBasenameNoExtension}",
+			"args": [],
+			"cwd": "${fileDirname}/../",
+			"sourceMap": {},
+			"sourceLanguages": ["rust"],
+			"env": {
+				"RUST_BACKTRACE": "short"
+			},
+			"preLaunchTask": "Rust Build"
+		}
+	]
+}
