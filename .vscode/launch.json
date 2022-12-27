@@ -4,7 +4,7 @@
 			"type": "lldb",
 			"request": "launch",
 			"name": "Debug Rust file",
-			"program": "${fileDirname}/../target/debug/${fileBasenameNoExtension}",
+			"program": "target/debug/${fileBasenameNoExtension}",
 			"args": [],
 			"cwd": "${fileDirname}/../",
 			"sourceMap": {},
