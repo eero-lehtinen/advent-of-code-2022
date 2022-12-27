@@ -9,7 +9,7 @@ My motivation for doing this honing my skills in the [Rust](https://www.rust-lan
 Install rustc 1.65 (with [rustup](https://rustup.rs)) although this should work with all later and most earlier versions.
 
 ```sh
-cd 01
-cargo run --release --bin part1
-cargo run --release --bin part2
+# Replace '01' with the day you want to run
+cargo run -p aoc01 --bin part1 --release
+cargo run -p aoc01 --bin part2 --release 
 ```
