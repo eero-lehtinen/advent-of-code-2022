@@ -11,6 +11,13 @@ ndarray = "0.15.6"
 bitvec = "1.0.1"
 rayon = "1.6.1"
 
+[dev-dependencies]
+criterion = "0.4"
+
+[[bench]]
+name = "my_benchmark"
+harness = false
+
 [[bin]]
 name = "part1"
 path = "src/part1.rs"
