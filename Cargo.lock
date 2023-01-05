@@ -105,6 +105,14 @@ name = "aoc17"
 version = "0.1.0"
 
 [[package]]
+name = "aoc18"
+version = "0.1.0"
+dependencies = [
+ "ndarray",
+ "parse-display",
+]
+
+[[package]]
 name = "atty"
 version = "0.2.14"
 source = "registry+https://github.com/rust-lang/crates.io-index"
